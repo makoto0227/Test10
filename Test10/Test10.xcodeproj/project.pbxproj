@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		30E73A6D2359BA3E00459377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E73A6B2359BA3E00459377 /* LaunchScreen.storyboard */; };
 		30E73A782359BA3E00459377 /* Test10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73A772359BA3E00459377 /* Test10Tests.swift */; };
 		30E73A832359BA3F00459377 /* Test10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73A822359BA3F00459377 /* Test10UITests.swift */; };
+		30E73A922359BC8000459377 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73A902359BC8000459377 /* TopViewController.swift */; };
+		30E73A932359BC8000459377 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E73A912359BC8000459377 /* TopViewController.xib */; };
+		30E73A9A2359C1D400459377 /* TopMainLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73A982359C1D400459377 /* TopMainLeftView.swift */; };
+		30E73A9B2359C1D400459377 /* TopMainLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E73A992359C1D400459377 /* TopMainLeftView.xib */; };
+		30E73A9E2359C21F00459377 /* TopMainRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73A9C2359C21F00459377 /* TopMainRightView.swift */; };
+		30E73A9F2359C21F00459377 /* TopMainRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E73A9D2359C21F00459377 /* TopMainRightView.xib */; };
+		30E73AA22359C60400459377 /* TopMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73AA02359C60400459377 /* TopMainTableViewCell.swift */; };
+		30E73AA32359C60400459377 /* TopMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E73AA12359C60400459377 /* TopMainTableViewCell.xib */; };
+		30E73AA62359C6CD00459377 /* TopMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E73AA42359C6CD00459377 /* TopMainCollectionViewCell.swift */; };
+		30E73AA72359C6CD00459377 /* TopMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E73AA52359C6CD00459377 /* TopMainCollectionViewCell.xib */; };
 		BCD94E7B1D038EF90F75314F /* Pods_Test10UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4491C573B763DE321DF4D75F /* Pods_Test10UITests.framework */; };
 		D1FE06A3C8C5AADCDF7C6FA0 /* Pods_Test10Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350DDDC1C78B5714D905C0D5 /* Pods_Test10Tests.framework */; };
 		ECD7150A8A1CE477C247BA2D /* Pods_Test10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCEBAB2A999117CF1B9640B /* Pods_Test10.framework */; };
@@ -52,6 +62,16 @@
 		30E73A7E2359BA3F00459377 /* Test10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E73A822359BA3F00459377 /* Test10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test10UITests.swift; sourceTree = "<group>"; };
 		30E73A842359BA3F00459377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E73A902359BC8000459377 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		30E73A912359BC8000459377 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		30E73A982359C1D400459377 /* TopMainLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainLeftView.swift; sourceTree = "<group>"; };
+		30E73A992359C1D400459377 /* TopMainLeftView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainLeftView.xib; sourceTree = "<group>"; };
+		30E73A9C2359C21F00459377 /* TopMainRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainRightView.swift; sourceTree = "<group>"; };
+		30E73A9D2359C21F00459377 /* TopMainRightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainRightView.xib; sourceTree = "<group>"; };
+		30E73AA02359C60400459377 /* TopMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainTableViewCell.swift; sourceTree = "<group>"; };
+		30E73AA12359C60400459377 /* TopMainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainTableViewCell.xib; sourceTree = "<group>"; };
+		30E73AA42359C6CD00459377 /* TopMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		30E73AA52359C6CD00459377 /* TopMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		350DDDC1C78B5714D905C0D5 /* Pods_Test10Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test10Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		393F7C38C96971A70D3D685A /* Pods-Test10UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test10UITests.release.xcconfig"; path = "Target Support Files/Pods-Test10UITests/Pods-Test10UITests.release.xcconfig"; sourceTree = "<group>"; };
 		4491C573B763DE321DF4D75F /* Pods_Test10UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test10UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +140,16 @@
 				30E73A692359BA3E00459377 /* Assets.xcassets */,
 				30E73A6B2359BA3E00459377 /* LaunchScreen.storyboard */,
 				30E73A6E2359BA3E00459377 /* Info.plist */,
+				30E73A902359BC8000459377 /* TopViewController.swift */,
+				30E73A912359BC8000459377 /* TopViewController.xib */,
+				30E73A982359C1D400459377 /* TopMainLeftView.swift */,
+				30E73A992359C1D400459377 /* TopMainLeftView.xib */,
+				30E73A9C2359C21F00459377 /* TopMainRightView.swift */,
+				30E73A9D2359C21F00459377 /* TopMainRightView.xib */,
+				30E73AA02359C60400459377 /* TopMainTableViewCell.swift */,
+				30E73AA12359C60400459377 /* TopMainTableViewCell.xib */,
+				30E73AA42359C6CD00459377 /* TopMainCollectionViewCell.swift */,
+				30E73AA52359C6CD00459377 /* TopMainCollectionViewCell.xib */,
 			);
 			path = Test10;
 			sourceTree = "<group>";
@@ -152,7 +182,6 @@
 				BCC0429D804586283653BC91 /* Pods-Test10UITests.debug.xcconfig */,
 				393F7C38C96971A70D3D685A /* Pods-Test10UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -274,8 +303,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E73A932359BC8000459377 /* TopViewController.xib in Resources */,
+				30E73A9B2359C1D400459377 /* TopMainLeftView.xib in Resources */,
 				30E73A6D2359BA3E00459377 /* LaunchScreen.storyboard in Resources */,
+				30E73AA32359C60400459377 /* TopMainTableViewCell.xib in Resources */,
 				30E73A6A2359BA3E00459377 /* Assets.xcassets in Resources */,
+				30E73AA72359C6CD00459377 /* TopMainCollectionViewCell.xib in Resources */,
+				30E73A9F2359C21F00459377 /* TopMainRightView.xib in Resources */,
 				30E73A682359BA3D00459377 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +421,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E73AA22359C60400459377 /* TopMainTableViewCell.swift in Sources */,
+				30E73A922359BC8000459377 /* TopViewController.swift in Sources */,
+				30E73AA62359C6CD00459377 /* TopMainCollectionViewCell.swift in Sources */,
 				30E73A612359BA3D00459377 /* AppDelegate.swift in Sources */,
+				30E73A9E2359C21F00459377 /* TopMainRightView.swift in Sources */,
+				30E73A9A2359C1D400459377 /* TopMainLeftView.swift in Sources */,
 				30E73A632359BA3D00459377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
